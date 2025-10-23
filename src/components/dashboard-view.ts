@@ -43,7 +43,7 @@ export class DashboardView extends HTMLElement {
 
         .cards-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+          grid-template-columns: repeat(2, 1fr);
           gap: 1.5rem;
           width: 100%;
           max-width: 1000px;
