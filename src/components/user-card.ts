@@ -24,7 +24,7 @@ export class UserCard extends HTMLElement {
     this.shadowRoot.innerHTML = `
       <style>
         .go-button {
-          background: var(--color-accent-dark);
+          background: var(--color-accent-light);
           color: var(--color-white);
           padding: .5rem .5rem;
           border-radius: .8rem;
