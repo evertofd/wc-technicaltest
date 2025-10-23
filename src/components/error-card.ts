@@ -22,21 +22,24 @@ export class ErrorCard extends HTMLElement {
           display: flex;
           flex-direction: column;
           align-items: center;
-          gap: 0.75rem;
+          gap: 1rem;
+          padding: 1rem;
         }
 
         .icon {
-          font-size: 2rem;
-          color: #ef4444; /* rojo principal */
+          font-size: 3rem;
+          filter: drop-shadow(0 2px 8px rgba(248, 81, 73, 0.3));
         }
 
         .message {
           font-size: 0.95rem;
-          color: #fca5a5;
-          background: rgba(239, 68, 68, 0.1);
-          padding: 0.5rem 1rem;
-          border-radius: 0.5rem;
+          color: var(--color-light, #c9d1d9);
+          background: rgba(248, 81, 73, 0.15);
+          padding: 1rem 1.5rem;
+          border-radius: 8px;
+          border: 1px solid rgba(248, 81, 73, 0.3);
           text-align: center;
+          line-height: 1.5;
         }
       </style>
 

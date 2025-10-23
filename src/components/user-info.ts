@@ -43,7 +43,7 @@ export class UserInfo extends HTMLElement {
         .name {
           font-weight: 600;
           font-size: 1.1rem;
-          color: var(--color-accent);
+          color: var(--color-white);
         }
 
         .bio {
@@ -56,7 +56,7 @@ export class UserInfo extends HTMLElement {
         .repos {
           font-size: 0.7rem;
           font-weight: 500;
-          color: var(--color-accent-dark);
+          color: var(--color-white);
           background: var(--color-accent-light);
           padding: .3rem .5rem;
           margin: .5rem;

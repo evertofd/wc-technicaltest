@@ -8,19 +8,12 @@ export class CardsContainer extends HTMLElement {
   render() {
     this.shadowRoot!.innerHTML = `
       <style>
-        .container {
-          display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-          gap: 1.5rem;
-          padding: 1.5rem;
-          width: 100%;
-          box-sizing: border-box;
+        :host {
+          display: contents;
         }
 
-        ::slotted(user-card),
-        ::slotted(app-card) {
-          max-width: 20rem;
-          margin: 0 auto;
+        .container {
+          display: contents;
         }
       </style>
       <div class="container">
